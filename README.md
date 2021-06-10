@@ -17,7 +17,7 @@ between multiple users. See transaction history.
 
 Stack Used:
 
-Front-End : HTML, CSS, Bootstrap
+Front-End : HTML, CSS, JavaScript, Bootstrap
 
 Back-End : PHP
 

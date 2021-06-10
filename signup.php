@@ -1,6 +1,6 @@
 <?php 
 
-include 'config.php';
+include 'connection.php';
 
 error_reporting(0);
 
@@ -12,11 +12,11 @@ if (isset($_POST['submit'])) {
 
 	if ($password == $cpassword) {
 		$sql = "SELECT * FROM users WHERE email='$email'";
-		$result = mysqli_query($conn, $sql);
+		$result = mysqli_query($conf, $sql);
 		if (!$result->num_rows > 0) {
 			$sql = "INSERT INTO users (username, email, password)
 					VALUES ('$username', '$email', '$password')";
-			$result = mysqli_query($conn, $sql);
+			$result = mysqli_query($conf, $sql);
 			if ($result) {
 				echo "<script> alert('User Registration Completed. Please SignIn.');
                              window.location='index.php';

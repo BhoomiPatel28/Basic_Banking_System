@@ -1,6 +1,6 @@
 # Basic-Banking-System
 
-#task1 under the Web Development and Designing Intern at the Sparks Foundation. 
+#Task1 under the Web Development and Designing Intern at the Sparks Foundation. 
 
 Task Description:
 Create a simple dynamic website which has the following specs.
@@ -18,5 +18,7 @@ between multiple users. See transaction history.
 Stack Used:
 
 Front-End : HTML, CSS, Bootstrap
+
 Back-End : PHP
+
 Database: MySQL
